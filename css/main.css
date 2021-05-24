@@ -7,4 +7,83 @@
     /* Neutral */
     --transparent-p: hsla(0, 0%, 100%, 0.75);
     --very-light: hsl(0, 0%, 95%); /* background, headings, buttons */
+
+    /* Fonts */
+    --font-title: 'Big Shoulders Display', cursive;
+    --font-body: 'Lexend Deca', sans-serif;
 }
+
+html {
+    font-size: 0.9375rem;
+    
+}
+
+body {
+    font-family: var(--font-body);
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-bright {
+    background-color: var(--bright);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.bg-very-dark {
+    background-color: var(--very-dark);
+}
+
+.card {
+    margin-top: 5.625rem;
+    background-color: var(--bright);
+    width: 85vw;
+    border-radius: 1vh;
+    overflow: hidden;
+}
+
+.card__column {
+    padding: 3.125rem;
+}
+
+.column__title {
+    font-family: var(--font-title);
+    text-transform: uppercase;
+    color: var(--very-light);
+    font-size: 2.25rem;
+}
+
+.column__description {
+    color: var(--transparent-p);
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    margin: 1rem 0;
+}
+.attribution a {
+    color: var(--very-dark);
+    text-decoration: none;
+}
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+
+    /* body {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;} */
+  }
+ 
