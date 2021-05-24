@@ -26,7 +26,6 @@ body {
     flex-direction: column;
     line-height: 1.6;
     align-items: center;
-    
 }
 
 .flex-container {
@@ -45,17 +44,13 @@ body {
     flex-flow: row wrap;
 }
 
-.bg-bright {
-    background-color: var(--bright);
-}
+.bg-bright {background-color: var(--bright);}
+.bg-dark {background-color: var(--dark);}
+.bg-very-dark {background-color: var(--very-dark);}
 
-.bg-dark {
-    background-color: var(--dark);
-}
-
-.bg-very-dark {
-    background-color: var(--very-dark);
-}
+.tx-bright {color: var(--bright);}
+.tx-dark {color: var(--dark);}
+.tx-very-dark {color: var(--very-dark);}
 
 .card {
     margin-top: 5.625rem;
@@ -83,6 +78,14 @@ body {
 
 .column__description {
     color: var(--transparent-p);
+}
+
+.column__btn {
+    margin-top: 2rem;
+    text-decoration: none;
+    background-color: var(--very-light);
+    padding: 1rem 2rem;
+    border-radius: 4vh;
 }
 
 .attribution { 
