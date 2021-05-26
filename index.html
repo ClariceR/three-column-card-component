@@ -15,32 +15,41 @@
   
   <title>Frontend Mentor | 3-column preview card component</title>
 </head>
+  <body class="grid">
+    <section class="card grid desktop-grid">
+      <div class="card__column bg-bright">
+        <img src="/images/icon-sedans.svg" alt="sedan car icon" class="column__icon">
+        <div class="column__body-copy">
+          <h1 class="column__title">Sedans</h1>
+          <p class="column__description">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+          <a href="#" class="column__btn tx-bright">Learn More</a>
+        </div>
+        
+      </div>
+      <div class="card__column bg-dark">
+        <img src="/images/icon-suvs.svg" alt="suv car icon" class="column__icon">
+        <div class="column__body-copy">
+          <h1 class="column__title">SUVs</h1>
+          <p class="column__description">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
+        <a href="#" class="column__btn tx-dark">Learn More</a>
+        </div>
 
-<body class="flex-container">
-  <div class="card flex-container row-wrap">
-    <div class="card__column bg-bright">
-      <img src="/images/icon-sedans.svg" alt="sedan car icon" class="column__icon">
-      <h1 class="column__title">Sedans</h1>
-      <p class="column__description">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
-      <a href="#" class="column__btn tx-bright">Learn More</a>
-    </div>
-    <div class="card__column bg-dark">
-      <img src="/images/icon-suvs.svg" alt="suv car icon" class="column__icon">
-      <h1 class="column__title">SUVs</h1>
-      <p class="column__description">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
-      <a href="#" class="column__btn tx-dark">Learn More</a>
-    </div>
-    <div class="card__column bg-very-dark">
-      <img src="/images/icon-luxury.svg" alt="luxury car icon" class="column__icon">
-      <h1 class="column__title">Luxury</h1>
-      <p class="column__description">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
-      <a href="#" class="column__btn tx-very-dark">Learn More</a>
-    </div>
-  </div>
+      </div>
+      <div class="card__column bg-very-dark">
+        <img src="/images/icon-luxury.svg" alt="luxury car icon" class="column__icon">
+        <div class="column__body-copy">
+          <h1 class="column__title">Luxury</h1>
+        <p class="column__description">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+        <a href="#" class="column__btn tx-very-dark">Learn More</a>
+        </div>
+      </div>
+    </section>
 
+  
+<!-- 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
